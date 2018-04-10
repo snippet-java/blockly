@@ -3,7 +3,7 @@
     <variable type="" id="DwM[[QVeX9|]ENw`mT,W">n</variable>
   </variables>
   <block type="variables_set" id="set_n_initial" inline="true" x="20" y="20">
-    <field name="VAR" id="DwM[[QVeX9|]ENw`mT,W" variabletype="">n</field>
+    <field name="VAR" id="#<DwM[[QVeX9|]ENw`mT,W" variabletype="">n</field>
     <value name="VALUE">
       <block type="math_number" id="j%r?f.5u;5)?_N^gMtR^">
         <field name="NUM">1</field>
