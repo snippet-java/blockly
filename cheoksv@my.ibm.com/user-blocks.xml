@@ -21,7 +21,7 @@
             <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">a</field>
             <value name="VALUE">
               <block type="math_arithmetic" id="fsoK7F$=Rvj!=^}w~e*i">
-                <field name="OP">ADD</field>
+                <field name="OP">MINUS</field>
                 <value name="A">
                   <block type="variables_get" id="ME/NtUVSqT{b$N-p]a?2">
                     <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">a</field>
