@@ -1,9 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <variables>
-    <variable type="" id="2@fFqX]V{@l1oUQ*K);9">n</variable>
+    <variable type="" id="2@fFqX]V{@l1oUQ*K);9">a</variable>
   </variables>
   <block type="variables_set" id="set_n_initial" inline="true" x="20" y="20">
-    <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">n</field>
+    <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">a</field>
     <value name="VALUE">
       <block type="math_number" id="bvpWY;J|pThUR%vm(F3X">
         <field name="NUM">1</field>
@@ -13,18 +13,18 @@
       <block type="controls_repeat_ext" id="repeat" inline="true">
         <value name="TIMES">
           <block type="math_number" id="SkMKYn^0W:6Pq2:z0yEG">
-            <field name="NUM">3</field>
+            <field name="NUM">10</field>
           </block>
         </value>
         <statement name="DO">
           <block type="variables_set" id="set_n_update" inline="true">
-            <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">n</field>
+            <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">a</field>
             <value name="VALUE">
               <block type="math_arithmetic" id="fsoK7F$=Rvj!=^}w~e*i">
-                <field name="OP">MULTIPLY</field>
+                <field name="OP">ADD</field>
                 <value name="A">
                   <block type="variables_get" id="ME/NtUVSqT{b$N-p]a?2">
-                    <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">n</field>
+                    <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">a</field>
                   </block>
                 </value>
                 <value name="B">
@@ -38,7 +38,7 @@
               <block type="text_print" id="print">
                 <value name="TEXT">
                   <block type="variables_get" id="l8eKIJ0_1gm=8sjq2WN/">
-                    <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">n</field>
+                    <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">a</field>
                   </block>
                 </value>
               </block>
