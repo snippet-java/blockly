@@ -1,34 +1,34 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <variables>
-    <variable type="" id="10,}[hR9{TBitisg9m)i">n</variable>
+    <variable type="" id="2@fFqX]V{@l1oUQ*K);9">n</variable>
   </variables>
   <block type="variables_set" id="set_n_initial" inline="true" x="20" y="20">
-    <field name="VAR" id="10,}[hR9{TBitisg9m)i" variabletype="">n</field>
+    <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">n</field>
     <value name="VALUE">
-      <block type="math_number" id="5%VofNM;^]lpW(NDPvnu">
+      <block type="math_number" id="bvpWY;J|pThUR%vm(F3X">
         <field name="NUM">1</field>
       </block>
     </value>
     <next>
       <block type="controls_repeat_ext" id="repeat" inline="true">
         <value name="TIMES">
-          <block type="math_number" id=")Sk.tWKIw^{.rv`:xy51">
-            <field name="NUM">7</field>
+          <block type="math_number" id="SkMKYn^0W:6Pq2:z0yEG">
+            <field name="NUM">10</field>
           </block>
         </value>
         <statement name="DO">
           <block type="variables_set" id="set_n_update" inline="true">
-            <field name="VAR" id="10,}[hR9{TBitisg9m)i" variabletype="">n</field>
+            <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">n</field>
             <value name="VALUE">
-              <block type="math_arithmetic" id="^69[WAHR8$8;T{5n59=f">
+              <block type="math_arithmetic" id="fsoK7F$=Rvj!=^}w~e*i">
                 <field name="OP">MULTIPLY</field>
                 <value name="A">
-                  <block type="variables_get" id="=oB*K@;D-azw4cC9#q2z">
-                    <field name="VAR" id="10,}[hR9{TBitisg9m)i" variabletype="">n</field>
+                  <block type="variables_get" id="ME/NtUVSqT{b$N-p]a?2">
+                    <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">n</field>
                   </block>
                 </value>
                 <value name="B">
-                  <block type="math_number" id="o?gI;Zz)J~39LT{=bttV">
+                  <block type="math_number" id="x/~a^A4,Jxv_S=pM6faK">
                     <field name="NUM">2</field>
                   </block>
                 </value>
@@ -37,8 +37,8 @@
             <next>
               <block type="text_print" id="print">
                 <value name="TEXT">
-                  <block type="variables_get" id="5] uKF8YxTa6VhpD|?cA">
-                    <field name="VAR" id="10,}[hR9{TBitisg9m)i" variabletype="">n</field>
+                  <block type="variables_get" id="l8eKIJ0_1gm=8sjq2WN/">
+                    <field name="VAR" id="2@fFqX]V{@l1oUQ*K);9" variabletype="">n</field>
                   </block>
                 </value>
               </block>
