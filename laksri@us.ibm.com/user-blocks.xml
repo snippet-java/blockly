@@ -21,7 +21,7 @@
             <field name="VAR" id="7SN.7cfuIboDB35GIGcG" variabletype="">n</field>
             <value name="VALUE">
               <block type="math_arithmetic" id="Y$^Fm:dzDFx i!C{-]Fw">
-                <field name="OP">MULTIPLY</field>
+                <field name="OP">MINUS</field>
                 <value name="A">
                   <block type="variables_get" id="YZ0cHn0$ZYf[_PllL .e">
                     <field name="VAR" id="7SN.7cfuIboDB35GIGcG" variabletype="">n</field>
