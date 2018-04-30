@@ -1,0 +1,51 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="4hkqf0VAB}aGt8s9bEF]">n</variable>
+  </variables>
+  <block type="variables_set" id="set_n_initial" inline="true" x="959" y="20">
+    <field name="VAR" id="4hkqf0VAB}aGt8s9bEF]" variabletype="">n</field>
+    <value name="VALUE">
+      <block type="math_number" id="UHz@(G`ZF0vamF,][MjU">
+        <field name="NUM">1</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_repeat_ext" id="repeat" inline="true">
+        <value name="TIMES">
+          <block type="math_number" id="0;xU)1butOKR[8nw?o7p">
+            <field name="NUM">4</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="variables_set" id="set_n_update" inline="true">
+            <field name="VAR" id="4hkqf0VAB}aGt8s9bEF]" variabletype="">n</field>
+            <value name="VALUE">
+              <block type="math_arithmetic" id="l`*^3Ml91R y[64%o.y7">
+                <field name="OP">MULTIPLY</field>
+                <value name="A">
+                  <block type="variables_get" id="I7|;[~nFLr{l.OWu8u;N">
+                    <field name="VAR" id="4hkqf0VAB}aGt8s9bEF]" variabletype="">n</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="SrXR/:jit:3!nh%*}Wal">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="text_print" id="print">
+                <value name="TEXT">
+                  <block type="variables_get" id="i 37ce=/ 2EP|D,xHpcv">
+                    <field name="VAR" id="4hkqf0VAB}aGt8s9bEF]" variabletype="">n</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
