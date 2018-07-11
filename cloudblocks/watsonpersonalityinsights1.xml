@@ -1,0 +1,24 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="">result</variable>
+  </variables>
+  <block type="call_ow" x="20" y="20">
+    <field name="result" variabletype="">result</field>
+    <field name="uid">GP106092351326227929170</field>
+    <field name="ow_func_name">personality-insights10</field>
+    <value name="PARAM">
+      <block type="raw_json">
+        <field name="json_string">{"textToAnalyze": "Call me Ishmael. Some years ago-never mind how long precisely-having  little or no money in my purse, and nothing particular to interest  me on shore, I thought I would sail about a little and see the  watery part of the world. It is a way I have of driving off the  spleen and regulating the circulation. Whenever I find myself  growing grim about the mouth; whenever it is a damp, drizzly  November in my soul; whenever I find myself involuntarily pausing  before coffin warehouses, and bringing up the rear of every  funeral I meet; and especially whenever my hypos get such an upper  hand of me, that it requires a strong moral principle to prevent  me from deliberately stepping into the street, and methodically  knocking people", "username": "090d8185-ba43-42bf-ad49-3b35484e27ec", "password": "KPlrvMfkohcn", "use_unauthenticated": "false"}</field>
+      </block>
+    </value>
+    <next>
+      <block type="text_print">
+        <value name="TEXT">
+          <block type="variables_get">
+            <field name="VAR" variabletype="">result</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>

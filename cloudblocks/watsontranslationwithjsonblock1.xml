@@ -1,0 +1,27 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="">result</variable>
+  </variables>
+  <block type="call_ow" x="20" y="20">
+    <field name="result" variabletype="">result</field>
+    <field name="uid">default</field>
+    <field name="ow_func_name">test-translate</field>
+    <value name="PARAM">
+      <block type="raw_json" >
+        <field name="json_string">{"text": "hello from custom", "from": "en", "to":"es"}</field>
+      </block>
+    </value>
+    <next>
+      <block type="text_print">
+        <value name="TEXT">
+          <shadow type="text">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="variables_get">
+            <field name="VAR" variabletype="">result</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
