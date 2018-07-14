@@ -1,21 +1,21 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <variables>
-    <variable type="">result</variable>
+    <variable type="" id="gc!1,BpN$dE.=jleYq!n">result</variable>
   </variables>
-  <block type="call_ow" x="20" y="20">
-    <field name="result" variabletype="">result</field>
-    <field name="uid">270003RN21</field>
-    <field name="ow_func_name">a-simple-js-app</field>
+  <block type="call_ow" id="2r7/NdKszG4[EhtMiC@T" x="20" y="20">
+    <field name="result" id="gc!1,BpN$dE.=jleYq!n" variabletype="">result</field>
+    <field name="uid">110000GHNT</field>
+    <field name="ow_func_name">a_simple_app</field>
     <value name="PARAM">
-      <block type="raw_json">
+      <block type="raw_json" id="B1z,{8`nuFTOE}QTkSMX">
         <field name="json_string">{"name": "user1", "email": "user1@email.com", "zip": "91010"}</field>
       </block>
     </value>
     <next>
-      <block type="text_print">
+      <block type="text_print" id="uhtI=gq)DEjl1rXs{Myq">
         <value name="TEXT">
-          <block type="variables_get">
-            <field name="VAR" variabletype="">result</field>
+          <block type="variables_get" id="_9x3:ao7@z`zYh;M|L1;">
+            <field name="VAR" id="gc!1,BpN$dE.=jleYq!n" variabletype="">result</field>
           </block>
         </value>
       </block>

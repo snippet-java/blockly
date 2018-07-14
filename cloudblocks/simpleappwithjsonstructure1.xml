@@ -1,0 +1,45 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="gc!1,BpN$dE.=jleYq!n">result</variable>
+  </variables>
+  <block type="call_ow" id="2r7/NdKszG4[EhtMiC@T" x="20" y="20">
+    <field name="result" id="gc!1,BpN$dE.=jleYq!n" variabletype="">result</field>
+    <field name="uid">110000GHNT</field>
+    <field name="ow_func_name">a_simple_app</field>
+    <value name="PARAM">
+      <block type="dictionary" id="3q43PUuix8j(]hMjM}{T">
+        <mutation length="3"></mutation>
+        <field name="key_field_0">name</field>
+        <field name="ddl_element_0">string</field>
+        <field name="key_field_1">email</field>
+        <field name="ddl_element_1">string</field>
+        <field name="key_field_2">zip</field>
+        <field name="ddl_element_2">string</field>
+        <value name="element_0">
+          <block type="string" id="]|!Fmq_5Jcj4}n^Y,c0+">
+            <field name="string_value">user1</field>
+          </block>
+        </value>
+        <value name="element_1">
+          <block type="string" id="F6lB__U!CzsL3j~K(5yc">
+            <field name="string_value">user1@email.com</field>
+          </block>
+        </value>
+        <value name="element_2">
+          <block type="string" id="-l@8)e!-PZ6XS;X=ulih">
+            <field name="string_value">27519</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="text_print" id="uhtI=gq)DEjl1rXs{Myq">
+        <value name="TEXT">
+          <block type="variables_get" id="_9x3:ao7@z`zYh;M|L1;">
+            <field name="VAR" id="gc!1,BpN$dE.=jleYq!n" variabletype="">result</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
