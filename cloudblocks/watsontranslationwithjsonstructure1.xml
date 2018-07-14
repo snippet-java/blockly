@@ -1,0 +1,48 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="uP:RZ*l{/C^}8@|^~}ed">result</variable>
+  </variables>
+  <block type="call_ow" id="o5ceb(siNbczz+LAO_|j" x="20" y="20">
+    <field name="result" id="uP:RZ*l{/C^}8@|^~}ed" variabletype="">result</field>
+    <field name="uid">default</field>
+    <field name="ow_func_name">test-translate</field>
+    <value name="PARAM">
+      <block type="dictionary" id="v(f%sEwv/N#0A;9:ZbvM">
+        <mutation length="3"></mutation>
+        <field name="key_field_0">text</field>
+        <field name="ddl_element_0">string</field>
+        <field name="key_field_1">from</field>
+        <field name="ddl_element_1">string</field>
+        <field name="key_field_2">to</field>
+        <field name="ddl_element_2">string</field>
+        <value name="element_0">
+          <block type="string" id="M;oju1qugtbRD:g^w1V~">
+            <field name="string_value">It is a cool day</field>
+          </block>
+        </value>
+        <value name="element_1">
+          <block type="string" id="t]Uf3LN3-6;?^oDrk7UD">
+            <field name="string_value">en</field>
+          </block>
+        </value>
+        <value name="element_2">
+          <block type="string" id="v`Zhd3g,jUQvQmVnW0Q`">
+            <field name="string_value">es</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="text_print" id="0V65[XP.}gQ:cfza@{`9">
+        <value name="TEXT">
+          <shadow type="text">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="variables_get" id="%Q/%at5|%*xA7pz(L3|2">
+            <field name="VAR" id="uP:RZ*l{/C^}8@|^~}ed" variabletype="">result</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
