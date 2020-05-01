@@ -1,4 +1,11 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <variables></variables>
+  <block type="controls_repeat_ext" id="Gab$ f6Zw/B5gbCN2J8_" x="263" y="-12">
+    <value name="TIMES">
+      <shadow type="math_number" id="i5nf:opd_wYQa!cd1YW ">
+        <field name="NUM">10</field>
+      </shadow>
+    </value>
+  </block>
   <block type="controls_if" id="z:?nXO{9AsUyM;@5k?WP" x="88" y="38"></block>
 </xml>
